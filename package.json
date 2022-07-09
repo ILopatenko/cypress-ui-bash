@@ -1,0 +1,23 @@
+{
+  "name": "cypress-ui-bash",
+  "version": "1.0.0",
+  "description": "New test automation test framework for UI testing - cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ILopatenko/cypress-ui-bash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ILopatenko/cypress-ui-bash/issues"
+  },
+  "homepage": "https://github.com/ILopatenko/cypress-ui-bash#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
