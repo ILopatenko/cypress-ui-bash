@@ -1,4 +1,4 @@
-
+///<reference types="cypress" />;
 import PageObjectFile from './path/path/path/fileNamePOM.js';
 const pageObjectFile = new PageObjectFile();
 //
@@ -106,3 +106,4 @@ cy.get('selector').type('{selectAll}{del}').should('have.value', '');
       {meta}	    Activates the metaKey modifier.   Aliases: {command}, {cmd}
       {shift}	    Activates the shiftKey modifier. */
 
+//NEW TESTS EXAMPLES

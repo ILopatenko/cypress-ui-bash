@@ -1,4 +1,3 @@
-
 import Page from '../../support/project-page-objects/abstract/page';
 const page = new Page();
 
@@ -38,9 +37,7 @@ describe('MAIN TEST SUITE', () => {
           const min = -10 - page.pageData.helper.method.getRandom();
           const max = 10 + page.pageData.helper.method.getRandom();
           const random = page.pageData.helper.method.getRandom(min, max);
-          cy.log(
-            'Random number between min and max'
-          );
+          cy.log('Random number between min and max');
         });
         it('Unit test: the series of 50 tests with assertions', () => {
           const min = -10 - page.pageData.helper.method.getRandom();
@@ -56,5 +53,3 @@ describe('MAIN TEST SUITE', () => {
     });
   });
 });
-
-
